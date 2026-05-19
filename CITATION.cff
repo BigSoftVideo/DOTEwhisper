@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use Dote Whisper in academic work, please cite it using the metadata below, together with the upstream projects listed in `references`."
+title: "Dote Whisper"
+abstract: >-
+  Dote Whisper is a cross-platform desktop application for on-device
+  audio transcription with speaker diarization. It wraps whisper.cpp
+  for speech-to-text (with word-level timestamps and confidence
+  scores) and sherpa-onnx for speaker diarization, runs entirely
+  locally without an internet connection or API key, and is
+  designed for academic and research use cases where recordings
+  cannot be uploaded to a cloud service.
+type: software
+authors:
+  - family-names: Stein
+    given-names: Alex
+version: 1.0.0
+date-released: 2026-05-19
+license: MIT
+repository-code: "https://github.com/LiminalSpaces/Dote-Whisper"
+url: "https://github.com/LiminalSpaces/Dote-Whisper"
+keywords:
+  - transcription
+  - speech-to-text
+  - whisper
+  - whisper.cpp
+  - speaker-diarization
+  - sherpa-onnx
+  - on-device
+  - privacy-preserving
+  - qualitative-research
+  - electron
+references:
+  - type: software
+    title: "whisper.cpp"
+    authors:
+      - family-names: Gerganov
+        given-names: Georgi
+    repository-code: "https://github.com/ggml-org/whisper.cpp"
+    license: MIT
+  - type: article
+    title: "Robust Speech Recognition via Large-Scale Weak Supervision"
+    authors:
+      - family-names: Radford
+        given-names: Alec
+      - family-names: Kim
+        given-names: Jong Wook
+      - family-names: Xu
+        given-names: Tao
+      - family-names: Brockman
+        given-names: Greg
+      - family-names: McLeavey
+        given-names: Christine
+      - family-names: Sutskever
+        given-names: Ilya
+    year: 2022
+    url: "https://arxiv.org/abs/2212.04356"
+  - type: software
+    title: "sherpa-onnx"
+    authors:
+      - name: "The k2-fsa project"
+    repository-code: "https://github.com/k2-fsa/sherpa-onnx"
+    license: Apache-2.0
