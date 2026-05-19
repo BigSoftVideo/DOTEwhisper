@@ -2,7 +2,7 @@
 
 **Private, on-device audio transcription — built for researchers.**
 
-Dote Whisper turns recorded audio (interviews, lectures, focus groups, field recordings) into accurate, time stamped transcripts. Everything runs locally on your own computer. No account, no API key, no internet round-trip, no data leaving your machine.
+DOTE Whisper turns recorded audio (interviews, lectures, focus groups, field recordings) into accurate, time stamped transcripts. Everything runs locally on your own computer. No account, no API key, no internet round-trip, no data leaving your machine.
 
 It is designed for academic work where confidentiality and privacy matter, and when you don't always have the time or the budget to have your hundreds of hours of recordings professionally transcribed.
 
@@ -101,7 +101,7 @@ Below the **full text** the transcript is listed in segments or turns (if diariz
 
 ## Adding custom models from HuggingFace
 
-Out of the box, Dote Whisper ships a standard array of OpenAI Whisper sizes (base, medium, large). For many research projects you'll want something more specialised — such as a model fine-tuned on Swedish parliamentary speeches, on medical dictation, on a low-resource language, on noisy field recordings, etc. The community has converted hundreds of these and published them on [HuggingFace](https://huggingface.co/).
+Out of the box, DOTE Whisper ships a standard array of OpenAI Whisper sizes (base, medium, large). For many research projects you'll want something more specialised — such as a model fine-tuned on Swedish parliamentary speeches, on medical dictation, on a low-resource language, on noisy field recordings, etc. The community has converted hundreds of these and published them on [HuggingFace](https://huggingface.co/).
 
 Dote Whisper can install most Whisper-architecture-based models from HuggingFace directly. (as long as the repository is public).
 
@@ -183,7 +183,7 @@ For anything else, please open an issue on the
 
 ## Citing Dote Whisper
 
-If you use Dote Whisper in published academic work, please also cite the underlying projects it builds on:
+If you use DOTE Whisper in published academic work, please also cite the underlying projects it builds on:
 
 - OpenAI Whisper — Radford et al., 2022.
 - whisper.cpp — Georgi Gerganov.
@@ -195,7 +195,7 @@ A `CITATION.cff` is included in this repo for convenience.
 
 ## License
 
-Dote Whisper is released under the **MIT License**. The bundled models retain their original upstream licenses (mostly MIT or Apache-2.0). See `LICENSE` in the release archive for full text.
+DOTE Whisper is released under the **MIT License**. The bundled models retain their original upstream licenses (mostly MIT or Apache-2.0). See `LICENSE` in the release archive for full text.
 
 ## Credits
 
