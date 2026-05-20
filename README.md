@@ -1,8 +1,8 @@
-# Dote Whisper
+# DOTE Whisper
 
-**Private, on-device audio transcription — built for researchers.**
+**Private, on-device audio transcription — built for researchers and students.**
 
-DOTE Whisper turns recorded audio (interviews, lectures, focus groups, field recordings) into accurate, time stamped transcripts. Everything runs locally on your own computer. No account, no API key, no internet round-trip, no data leaving your machine.
+DOTE Whisper turns recorded audio (interviews, lectures, focus groups, field recordings) into "accurate", time stamped transcripts. Everything runs locally on your own computer. No account, no API key, no internet round-trip, no data leaving your machine.
 
 It is designed for academic work where confidentiality and privacy matter, and when you don't always have the time or the budget to have your hundreds of hours of recordings professionally transcribed.
 
@@ -10,7 +10,7 @@ It is designed for academic work where confidentiality and privacy matter, and w
 
 ## Why use it
 
-- **Your audio never leaves your computer.** Suitable for IRB-/ethics-approved recordings, sensitive interviews, and other material you cannot upload to a cloud service.
+- **Your audio never leaves your computer.** Suitable for IRB-/GDPR-/ethics-approved recordings, sensitive interviews, and other material you cannot upload to a cloud service.
 - **No subscriptions, no per-minute fees.** One-time download. Transcribe as much as you like.
 - **Verbatim transcription** A useful first step when planning analysis or trying to manage hundreds of hours of field recordings.
 - **Word-level timestamps and confidence scores.** Every word in the transcript carries its own start time, end time, and a 'confidence' value between 0 and 1.
@@ -60,7 +60,7 @@ Download the latest installer for your operating system from the
 | Mac (for admin/IT installation) | `Dote-Whisper-osx-<version>.pkg` |
 | Windows (for admin/IT installation) | `Dote-Whisper-win-x64-<version>.msi` |
 
-**macOS:** open the `.dmg`, drag *Dote Whisper* into your Applications folder, then launch it. The first time you open it, macOS may ask you to confirm that you want to run an application downloaded from the internet — this is expected. - If you are using an institutionally-managed computer, and do not normally have administrator rights, you *may* need to use the `.pkg` installer with the help of your IT department.
+**macOS:** open the `.dmg`, drag *DOTE Whisper* into your Applications folder, then launch it. The first time you open it, macOS may ask you to confirm that you want to run an application downloaded from the internet — this is expected. - If you are using an institutionally-managed computer, and do not normally have administrator rights, you *may* need to use the `.pkg` installer with the help of your IT department.
 
 **Windows:** double-click the `.exe`. The app installs into your user profile (no admin rights needed) and creates a Start-menu shortcut. - If you are using an institutionally-managed computer, and do not normally have administrator rights, you *may* need to use the `.msi` installer with the help of your IT department.
 
@@ -74,7 +74,7 @@ disk space.
 | If you care most about… | Pick |
 |---|---|
 | Speed (quick drafts, short clips) | `base` or `base (English only)`|
-| Balanced quality (default) | `mediem` or `medium (English only)` |
+| Balanced quality (default) | `medium` or `medium (English only)` |
 | Best accuracy (long, noisy, or non-English audio) | `Large v3` |
 
 Use the `(English Only)` variants whenever you know the audio is English — they're a little faster and slightly more accurate than the multilingual model of the same size.
@@ -103,7 +103,7 @@ Below the **full text** the transcript is listed in segments or turns (if diariz
 
 Out of the box, DOTE Whisper ships a standard array of OpenAI Whisper sizes (base, medium, large). For many research projects you'll want something more specialised — such as a model fine-tuned on Swedish parliamentary speeches, on medical dictation, on a low-resource language, on noisy field recordings, etc. The community has converted hundreds of these and published them on [HuggingFace](https://huggingface.co/).
 
-Dote Whisper can install most Whisper-architecture-based models from HuggingFace directly. (as long as the repository is public).
+DOTE Whisper can install most Whisper-architecture-based models from HuggingFace directly. (as long as the repository is public).
 
 ### How to add one
 
