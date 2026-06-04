@@ -1,7 +1,7 @@
 theme: jekyll-theme-architect
-title: Guide for DOTE 2.0 users
-description: DOTE (Distributed Open Transcription Environment)
-URL: "https://bigsoftvideo.github.io/DOTE"
+title: Guide for DOTEwhisper users
+description: DOTEwhisper
+URL: "https://bigsoftvideo.github.io/DOTEwhisper"
 image: "/images/logo.png"
 markdown: GFM
 plugins:
